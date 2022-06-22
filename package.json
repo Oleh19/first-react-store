@@ -2,7 +2,7 @@
   "name": "shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oleh19.github.io/first-react-app/",
+  "homepage": "https://github.com/Oleh19/first-react-store.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

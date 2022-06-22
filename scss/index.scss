@@ -213,12 +213,12 @@ header {
             border-radius: 10px;
 
             &:first-child{
-                padding: 1vw 1vw 1vw 2vw;
+                padding: 1vw 1vw 0.5vw 2.5vw;
 
             }
 
             &:last-child{
-                padding: 1vw 2vw 1vw 1vw;
+                padding: 1vw 2.5vw 0.5vw 1vw;
             }
         }
     }

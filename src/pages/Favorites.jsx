@@ -5,7 +5,6 @@ import AppContext from "../context";
 function Favorites ({}) {
     const {favorites, onAddToFavorite} = React.useContext(AppContext);
 
-
     return (
         <div className="content">
             <div className="content-body">

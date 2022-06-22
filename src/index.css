@@ -3,7 +3,7 @@ body {
   font-family: system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e7f6ff;
+  background-color: #808080;
 }
 
 * {
@@ -209,6 +209,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #d5d5d5;
+  border-radius: 20px;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -227,6 +229,7 @@ header .headerLeft .uppercause {
 
 header .headerLeft img {
   margin-right: 15px;
+  border-radius: 10px;
 }
 
 header .headerLeft img h3,
@@ -243,9 +246,16 @@ header .headerRight {
 header .headerRight li {
   margin-right: 10px;
   cursor: pointer;
-  border-bottom: 2px solid #545353;
-  border-right: 1.5px solid #545353;
-  padding-right: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+header .headerRight li:first-child {
+  padding: 1vw 1vw 1vw 2vw;
+}
+
+header .headerRight li:last-child {
+  padding: 1vw 2vw 1vw 1vw;
 }
 
 .firstIcon {
@@ -258,6 +268,7 @@ header .headerRight li {
 
 .content {
   padding: 40px;
+  border-radius: 20px;
 }
 
 .content .content-body {

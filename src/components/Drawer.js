@@ -54,18 +54,6 @@ function Drawer({ onClose, onRemove, items = [] }) {
                         ))}
                     </div>
                         <div className="cartTotalBlock">
-                            <ul>
-                                <li>
-                                    <span>Summary:</span>
-                                    <div>1000 000$</div>
-                                    <b></b>
-                                </li>
-                                <li>
-                                    <span>Tax 10%:</span>
-                                    <div>10 000$</div>
-                                    <b></b>
-                                </li>
-                            </ul>
                             <button disabled={isLoading} onClick={onClickOrder} className="greenButton">Order</button>
                         </div>
                     </>
